@@ -7,7 +7,10 @@ namespace DoesItBlend
     /// <summary>
     /// A base class representing fruit
     /// </summary>
-    public abstract class Fruit
+    public abstract class Fruit : iBlendable
     {
+
+
+        public abstract string Blend();
     }
 }

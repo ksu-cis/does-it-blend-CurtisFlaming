@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DoesItBlend
+namespace DoesItBlend 
 {
     /// <summary>
     /// A class representing a cell phone
     /// </summary>
     /// <summary>
-    public class CellPhone
+    public class CellPhone : iBlendable
     {
         /// Blends the ice cubes
         /// </summary>
